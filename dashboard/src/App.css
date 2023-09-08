@@ -1,0 +1,90 @@
+.App{
+  text-align: center;
+  display: block !important;
+  justify-content: center !important;
+}
+.headd{
+  color: midnightblue;
+}
+.logo-image{
+  border: white;
+  size: 500*500px;
+  height: 570px;
+}
+.imagebutton{
+  margin-left: -50px;
+}
+
+.upload-button {
+  display: inline-block;
+  
+ color: midnightblue; /* Button background color */
+  /* color: #fff; Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+}
+.midnight{
+  background-color: midnightblue;
+  color: white;
+  padding: 8px 100px;
+}
+.upload-button span {
+  font-size: 24px; /* Adjust the plus symbol size */
+  margin-right: 5px;
+}
+
+.image-container{
+  border: none;
+}
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+input{
+  margin: 0.5rem 0;
+  padding: 10px 24px;
+  /* border: none; */
+  width: 25%;
+  font-size: 12px;
+}
+.btn-btn2{
+  border: none;
+  background-color: midnightblue;
+  padding: 13px 133px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+.img-1{
+  width: 100px; /* Set your desired width */
+  height: auto;
+  margin-left: -90%;   
+}
+.img-2{
+  margin-left: -93%;
+  font-size: 11px;
+  /* margin-top: ; */
+}
+.image-container {
+  text-align: center; /* Optional: Center the image horizontally */
+}
+.btn-btn{
+  border: none;
+  background-color: midnightblue;
+  padding: 13px 173px;
+  
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+.link-btn{
+  background: none;
+  text-decoration: underline;
+  color: black;
+  border: none;
+}
+
