@@ -5,7 +5,7 @@ function Dashboard() {
   const [name, setName] = useState('Purvaja Vashistha');
   const [employeeId, setEmployeeId] = useState('JMD233');
   const [email, setEmail] = useState('purvajavashistha@jmangroup.com');
-  const [isEditMode, setIsEditMode] = useState(false); // State to track edit mode
+  const [isEditMode, setIsEditMode] = useState(false); //State to track edit mode
   const fileInputRef = useRef(null);
 
 
@@ -42,12 +42,9 @@ function Dashboard() {
 
   return (
     <div>
-     
-
-      <div className="row d-flex justify-content-center align-items-center h-100"><br/>
-        
-          
-              <div><br/>
+      <div className="row d-flex justify-content-center align-items-center h-100"><br/>         
+              <div>
+                <br/>
                 <div className="profile-image">
                   <img src={imageSrc} alt="User" className="rounded-circle" style={{ width: '100px', height: '100px' }} />
                 </div>

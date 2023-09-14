@@ -16,11 +16,11 @@ export const Signin = () => {
         });
 
         const token = response.data.token;
-      
-        // Store the token securely (localStorage or cookie)
+
+        // Store token secure
         localStorage.setItem("token", token);
 
-        // Redirect to the dashboard
+        // Redirect to dashboard
         console.log(response);
         navigate("/Dashboard");
         console.log("done");
@@ -35,22 +35,22 @@ export const Signin = () => {
   };
 
   return (
-    <div className="maincontainer">      
+    <div className="maincontainer">
       <div className="container-signin">
-      
         <div className="image-container">
-        <img src='standaed.png'  className="img-1"/>
-      </div>
-        <h3 className="headd">Sign in to Jin</h3><br/>
-        <button className="btn-btn2">Continue with OEMP</button>
+          <img src="standaed.png" className="img-1" />
+        </div>
+        <h3 className="headd">Sign in to Jin</h3>
+        <br/>
+        <button className="btn-btn2">Continue with O365</button>
         <p>or</p>
         <label>Email</label>
-        <br />
+        <br/>
         <input
           htmlFor="email"
           type="email"
           placeholder="youremail@gmail.com"
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={(e) => setEmail(e.target.value)} required
         />
         <br />
         <label>Password</label>
@@ -63,7 +63,8 @@ export const Signin = () => {
           name="password"
           onChange={(e) => setpass(e.target.value)}
         />
-        <br /><br/>
+        <br />
+        <br />
         <button className="btn-btn" onClick={handlesubmit}>
           Log In
         </button>

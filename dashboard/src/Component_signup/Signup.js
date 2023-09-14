@@ -20,7 +20,7 @@
         email: email,
         password: pass
       }
-      if (id.trim(" ") !== "" && FullName.trim() !== "" && email !== "" && pass.trim() !== "" && cpass.trim() !== "") {
+      if (id.trim() !== "" && FullName.trim() !== "" && email !== "" && pass.trim() !== "" && cpass.trim() !== "") {
         const empIdPattern = /^JMD\d+$/;
         if (!empIdPattern.test(id)) {
             alert("Enter your Employee ID 'EMP...'")
